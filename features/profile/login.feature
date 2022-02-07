@@ -4,7 +4,7 @@
 Feature: Login to my account
     login then logout to my account
 
-    Scenario: login/logout with my private account
+    Scenario: login/logout to my account
         Given I start the chromium browser
         When I navigate to 'https://hunting.zeiss.com/'
         Then I see 'ZEISS Hunting' in the page title
