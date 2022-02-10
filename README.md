@@ -1,10 +1,6 @@
-# self tests for acre
-
-See https://github.com/realtimeprojects/acre
-
 # quickstart
 
-- install acre (see link above)
+- install acre see 
 - run
 
         cd acre-test
