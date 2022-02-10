@@ -39,7 +39,7 @@ def i_login(step):
     account_pass = "HazemIbrahim1"
     link = Link(text="Login")
     link.click()
-    time.sleep(3)
+    time.sleep(5)
     username = Input(id="signInName")
     username.input(email)
     password = Input(id="password")
@@ -47,7 +47,7 @@ def i_login(step):
     time.sleep(2)
     button = Button(text="Sign in")
     button.click()
-    time.sleep(2)
+    time.sleep(5)
 
 
 @then("I see my Dashboard page")
